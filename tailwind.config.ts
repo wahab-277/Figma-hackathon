@@ -8,6 +8,9 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        helvetica: ['Helvetica', 'Arial', 'sans-serif'], // Fallbacks included
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
