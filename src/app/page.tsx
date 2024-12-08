@@ -18,7 +18,7 @@ const Home = () => {
       <div className="flex flex-row justify-center gap-x-20 bg-[#0D0D0D] h-[950px] w-full pt-11" style={helveticaStyle}>
         {/* Left */}
         <div className="mt-20">
-          <h3 className={`${greatVibes.className} text-2xl text-[#FF9F0D] m-4`}>It's Quick & Amusing!</h3>
+          <h3 className={`${greatVibes.className} text-2xl text-[#FF9F0D] m-4`}>It&apos;s Quick & Amusing!</h3>
           <h1 className="text-white font-bold text-6xl m-4">
             <span className="text-[#FF9F0D]">Th</span>e Art of speed <br />
             food Quality
@@ -169,11 +169,11 @@ const Home = () => {
     <div className="bg-white text-black p-8 rounded-lg shadow-lg relative max-w-2xl">
       {/* User Image */}
       <div className="absolute -top-12 left-1/2 transform -translate-x-1/2">
-        <img
+        <Image
           src="/profile.png" // Replace with your image path
           alt="Client"
           className="w-24 h-24 rounded-full border-4 border-white"
-        />
+        ></Image>
       </div>
 
       {/* Quote Icon */}
@@ -244,7 +244,7 @@ const Home = () => {
     <span className='text-[#FF9F0D]'>St</span>ill You Need Our Support?
     <br />
     <p className='text-gray-200 text-lg font-light mt-2' style={{ fontFamily: 'Helvetica, Arial, sans-serif' }}>
-      Don’t wait make a smart & logical quote here. Its pretty easy.
+      Don&apos;t wait make a smart & logical quote here. Its pretty easy.
     </p>
 
     <div className='flex'>
